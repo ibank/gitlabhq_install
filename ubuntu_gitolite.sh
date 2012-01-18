@@ -16,7 +16,7 @@ sudo usermod -a -G git `eval whoami`
 sudo cp ~/.ssh/id_rsa.pub /home/git/rails.pub
 
 # clone gitolite
-sudo -u git -H git clone git://github.com/gitlabhq/gitolite /home/git/gitolite
+sudo -u git -H git clone http://github.com/gitlabhq/gitolite /home/git/gitolite
 
 # install gitolite
 sudo -u git -H /home/git/gitolite/src/gl-system-install
